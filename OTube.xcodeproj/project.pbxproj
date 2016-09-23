@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5E28561D94D93A00C5214B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E28551D94D93A00C5214B /* main.m */; };
+		0B5E28641D94D93A00C5214B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5E28621D94D93A00C5214B /* LaunchScreen.storyboard */; };
+		0B5E286F1D94D93A00C5214B /* OTubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E286E1D94D93A00C5214B /* OTubeTests.m */; };
+		0B5E287A1D94D93A00C5214B /* OTubeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E28791D94D93A00C5214B /* OTubeUITests.m */; };
+		0B5E28951D94D9A500C5214B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E288A1D94D9A500C5214B /* AppDelegate.m */; };
+		0B5E28961D94D9A500C5214B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B5E28941D94D9A500C5214B /* Info.plist */; };
+		0B5E28981D94D9DA00C5214B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5E28971D94D9DA00C5214B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B5E286B1D94D93A00C5214B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5E28491D94D93A00C5214B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5E28501D94D93A00C5214B;
+			remoteInfo = OTube;
+		};
+		0B5E28761D94D93A00C5214B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5E28491D94D93A00C5214B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5E28501D94D93A00C5214B;
+			remoteInfo = OTube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5E28511D94D93A00C5214B /* OTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5E28551D94D93A00C5214B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B5E28631D94D93A00C5214B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B5E286A1D94D93A00C5214B /* OTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5E286E1D94D93A00C5214B /* OTubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTubeTests.m; sourceTree = "<group>"; };
+		0B5E28701D94D93A00C5214B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5E28751D94D93A00C5214B /* OTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5E28791D94D93A00C5214B /* OTubeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTubeUITests.m; sourceTree = "<group>"; };
+		0B5E287B1D94D93A00C5214B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5E28891D94D9A500C5214B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B5E288A1D94D9A500C5214B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B5E28941D94D9A500C5214B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5E28971D94D9DA00C5214B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B5E284E1D94D93A00C5214B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5E28671D94D93A00C5214B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5E28721D94D93A00C5214B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5E28481D94D93A00C5214B = {
+			isa = PBXGroup;
+			children = (
+				0B5E28531D94D93A00C5214B /* OTube */,
+				0B5E286D1D94D93A00C5214B /* OTubeTests */,
+				0B5E28781D94D93A00C5214B /* OTubeUITests */,
+				0B5E28521D94D93A00C5214B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B5E28521D94D93A00C5214B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28511D94D93A00C5214B /* OTube.app */,
+				0B5E286A1D94D93A00C5214B /* OTubeTests.xctest */,
+				0B5E28751D94D93A00C5214B /* OTubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B5E28531D94D93A00C5214B /* OTube */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28871D94D9A500C5214B /* Controllers */,
+				0B5E288B1D94D9A500C5214B /* Controlls */,
+				0B5E288C1D94D9A500C5214B /* Define */,
+				0B5E288D1D94D9A500C5214B /* Library */,
+				0B5E288E1D94D9A500C5214B /* Model */,
+				0B5E288F1D94D9A500C5214B /* Resource */,
+				0B5E28921D94D9A500C5214B /* Services */,
+				0B5E28931D94D9A500C5214B /* Supports */,
+				0B5E28621D94D93A00C5214B /* LaunchScreen.storyboard */,
+				0B5E28541D94D93A00C5214B /* Supporting Files */,
+			);
+			path = OTube;
+			sourceTree = "<group>";
+		};
+		0B5E28541D94D93A00C5214B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28551D94D93A00C5214B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B5E286D1D94D93A00C5214B /* OTubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E286E1D94D93A00C5214B /* OTubeTests.m */,
+				0B5E28701D94D93A00C5214B /* Info.plist */,
+			);
+			path = OTubeTests;
+			sourceTree = "<group>";
+		};
+		0B5E28781D94D93A00C5214B /* OTubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28791D94D93A00C5214B /* OTubeUITests.m */,
+				0B5E287B1D94D93A00C5214B /* Info.plist */,
+			);
+			path = OTubeUITests;
+			sourceTree = "<group>";
+		};
+		0B5E28871D94D9A500C5214B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28881D94D9A500C5214B /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B5E28881D94D9A500C5214B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28891D94D9A500C5214B /* AppDelegate.h */,
+				0B5E288A1D94D9A500C5214B /* AppDelegate.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0B5E288B1D94D9A500C5214B /* Controlls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controlls;
+			sourceTree = "<group>";
+		};
+		0B5E288C1D94D9A500C5214B /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		0B5E288D1D94D9A500C5214B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0B5E288E1D94D9A500C5214B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B5E288F1D94D9A500C5214B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28901D94D9A500C5214B /* Images */,
+				0B5E28911D94D9A500C5214B /* Language */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0B5E28901D94D9A500C5214B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28971D94D9DA00C5214B /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0B5E28911D94D9A500C5214B /* Language */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		0B5E28921D94D9A500C5214B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0B5E28931D94D9A500C5214B /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E28941D94D9A500C5214B /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B5E28501D94D93A00C5214B /* OTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5E287E1D94D93A00C5214B /* Build configuration list for PBXNativeTarget "OTube" */;
+			buildPhases = (
+				0B5E284D1D94D93A00C5214B /* Sources */,
+				0B5E284E1D94D93A00C5214B /* Frameworks */,
+				0B5E284F1D94D93A00C5214B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTube;
+			productName = OTube;
+			productReference = 0B5E28511D94D93A00C5214B /* OTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B5E28691D94D93A00C5214B /* OTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5E28811D94D93A00C5214B /* Build configuration list for PBXNativeTarget "OTubeTests" */;
+			buildPhases = (
+				0B5E28661D94D93A00C5214B /* Sources */,
+				0B5E28671D94D93A00C5214B /* Frameworks */,
+				0B5E28681D94D93A00C5214B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5E286C1D94D93A00C5214B /* PBXTargetDependency */,
+			);
+			name = OTubeTests;
+			productName = OTubeTests;
+			productReference = 0B5E286A1D94D93A00C5214B /* OTubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B5E28741D94D93A00C5214B /* OTubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5E28841D94D93A00C5214B /* Build configuration list for PBXNativeTarget "OTubeUITests" */;
+			buildPhases = (
+				0B5E28711D94D93A00C5214B /* Sources */,
+				0B5E28721D94D93A00C5214B /* Frameworks */,
+				0B5E28731D94D93A00C5214B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5E28771D94D93A00C5214B /* PBXTargetDependency */,
+			);
+			name = OTubeUITests;
+			productName = OTubeUITests;
+			productReference = 0B5E28751D94D93A00C5214B /* OTubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B5E28491D94D93A00C5214B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Quang Phu";
+				TargetAttributes = {
+					0B5E28501D94D93A00C5214B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0B5E28691D94D93A00C5214B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0B5E28501D94D93A00C5214B;
+					};
+					0B5E28741D94D93A00C5214B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0B5E28501D94D93A00C5214B;
+					};
+				};
+			};
+			buildConfigurationList = 0B5E284C1D94D93A00C5214B /* Build configuration list for PBXProject "OTube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B5E28481D94D93A00C5214B;
+			productRefGroup = 0B5E28521D94D93A00C5214B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B5E28501D94D93A00C5214B /* OTube */,
+				0B5E28691D94D93A00C5214B /* OTubeTests */,
+				0B5E28741D94D93A00C5214B /* OTubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B5E284F1D94D93A00C5214B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5E28641D94D93A00C5214B /* LaunchScreen.storyboard in Resources */,
+				0B5E28981D94D9DA00C5214B /* Assets.xcassets in Resources */,
+				0B5E28961D94D9A500C5214B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5E28681D94D93A00C5214B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5E28731D94D93A00C5214B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5E284D1D94D93A00C5214B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5E28951D94D9A500C5214B /* AppDelegate.m in Sources */,
+				0B5E28561D94D93A00C5214B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5E28661D94D93A00C5214B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5E286F1D94D93A00C5214B /* OTubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5E28711D94D93A00C5214B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5E287A1D94D93A00C5214B /* OTubeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B5E286C1D94D93A00C5214B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5E28501D94D93A00C5214B /* OTube */;
+			targetProxy = 0B5E286B1D94D93A00C5214B /* PBXContainerItemProxy */;
+		};
+		0B5E28771D94D93A00C5214B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5E28501D94D93A00C5214B /* OTube */;
+			targetProxy = 0B5E28761D94D93A00C5214B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B5E28621D94D93A00C5214B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B5E28631D94D93A00C5214B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B5E287C1D94D93A00C5214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B5E287D1D94D93A00C5214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B5E287F1D94D93A00C5214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fu.quangphu.OTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B5E28801D94D93A00C5214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fu.quangphu.OTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B5E28821D94D93A00C5214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fu.quangphu.OTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTube.app/OTube";
+			};
+			name = Debug;
+		};
+		0B5E28831D94D93A00C5214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fu.quangphu.OTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTube.app/OTube";
+			};
+			name = Release;
+		};
+		0B5E28851D94D93A00C5214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OTubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fu.quangphu.OTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OTube;
+			};
+			name = Debug;
+		};
+		0B5E28861D94D93A00C5214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OTubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fu.quangphu.OTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OTube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B5E284C1D94D93A00C5214B /* Build configuration list for PBXProject "OTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5E287C1D94D93A00C5214B /* Debug */,
+				0B5E287D1D94D93A00C5214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5E287E1D94D93A00C5214B /* Build configuration list for PBXNativeTarget "OTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5E287F1D94D93A00C5214B /* Debug */,
+				0B5E28801D94D93A00C5214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B5E28811D94D93A00C5214B /* Build configuration list for PBXNativeTarget "OTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5E28821D94D93A00C5214B /* Debug */,
+				0B5E28831D94D93A00C5214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B5E28841D94D93A00C5214B /* Build configuration list for PBXNativeTarget "OTubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5E28851D94D93A00C5214B /* Debug */,
+				0B5E28861D94D93A00C5214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B5E28491D94D93A00C5214B /* Project object */;
+}
